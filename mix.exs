@@ -52,7 +52,7 @@ defmodule Carafe.MixProject do
       {:plug_cowboy, "~> 2.5"},
       {:tailwind, "~> 0.1.8", runtime: Mix.env() == :dev},
       {:paginator, "~> 0.6.0"},
-      {:sweet_xml, "~> 0.6.6"},
+      {:sweet_xml, "~> 0.7.4"},
       {:paraxial, "~> 2.7.2"}
     ]
   end
