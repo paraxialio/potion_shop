@@ -6,6 +6,7 @@ defmodule CarafeWeb.PotionController do
   alias Carafe.Review
 
   def index(conn, %{"name" => name}) do
+    # Hi
     potions = Potions.search_potions(name)
     render(conn, "index.html", potions: potions)
   end
