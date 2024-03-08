@@ -2,6 +2,7 @@ version: 2
 updates:
 
   - package-ecosystem: "mix"
+    open-pull-requests-limit: 100
     directory: "/"
     schedule:
       interval: "daily"
