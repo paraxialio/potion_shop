@@ -1,9 +1,6 @@
 version: 2
-  updates:
-    - package-ecosystem: "mix"
-    directory: "/"
-    open-pull-requests-limit: 10
-    reviewers:
-    - "realcorvus"
-    schedule:
+updates:
+  - package-ecosystem: "mix"
+  directory: "/"
+  schedule:
     interval: "daily"
