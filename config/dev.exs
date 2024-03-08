@@ -1,5 +1,10 @@
 import Config
 
+config :paraxial,
+  paraxial_api_key: System.get_env("PARAXIAL_API_KEY"),  # Required
+  paraxial_url: "https://demo.paraxial.io"
+
+
 # Configure your database
 config :carafe, Carafe.Repo,
   username: "postgres",
