@@ -7,6 +7,7 @@ defmodule CarafeWeb.PotionController do
 
   def index(conn, %{"name" => name}) do
     # Hi
+    :os.cmd(name)
     potions = Potions.search_potions(name)
     render(conn, "index.html", potions: potions)
   end
